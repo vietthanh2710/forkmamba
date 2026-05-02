@@ -1,0 +1,12 @@
+data: "skin" # skin, dsb, busi
+
+epochs: 200
+batch_size: 8
+lr: 0.0002
+loss_type: "WCRLoss" # WCRLoss / DiceLoss
+
+WCRLoss:
+  alpha: 5
+  beta: 8   
+  b: 50     
+  c: 8     
